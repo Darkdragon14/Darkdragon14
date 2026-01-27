@@ -1,16 +1,69 @@
-## Hi there 👋
+# Darkdragon14 👋
 
-<!--
-**Darkdragon14/Darkdragon14** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build tools to make Home Assistant and self-hosted infrastructures easier, cleaner, and less annoying to maintain.
 
-Here are some ideas to get you started:
+If something can be automated instead of managed by hand, I’ll probably try to automate it.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Stuff I build
+
+### ☁️ docker-cloudflare-tunnel-sync
+Turn Docker labels into Cloudflare Tunnel routes, DNS records, and Access rules.
+
+→ No more dashboard clicking  
+→ Containers = source of truth  
+→ Sleep better at night 😄
+
+### 🏠 ha-guest-mode
+Generate secure, time-limited guest links for Home Assistant.
+
+→ Guests get access  
+→ You keep control  
+→ No zombie accounts
+
+### 🔐 ha-access-control-manager
+Centralized role & permission management for Home Assistant.
+
+→ Clean dashboards  
+→ Proper access levels  
+→ Less “who broke this?” moments
+
+### 🎛️ streamdeck-docker
+Control Docker and Compose stacks from a Stream Deck.
+
+→ One button = one container  
+→ Surprisingly addictive
+
+### 💡 ha-aqara-devices
+Extra Aqara features for Home Assistant (G3, FP2 coming soon™).
+
+---
+
+## 🧠 How I think
+
+- Automation > documentation > manual steps
+- If it’s fragile, it’s not finished
+- Security should not kill usability
+- Making nerd tools less annoying to use
+
+
+---
+
+## 🔧 Main playgrounds
+
+- Home Assistant (HACS integrations)
+- Self-hosting & homelabs
+- Docker & CI/CD
+- Cloudflare Zero Trust / Tunnels
+- Real-world smart home setups
+
+---
+
+## 🤝 Want to contribute?
+
+Issues, ideas, and PRs are welcome.
+
+If you’re using one of my projects and something feels wrong, let me know — chances are I’ll want to fix it.
+
+---
