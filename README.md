@@ -39,14 +39,14 @@ Control Docker and Compose stacks from a Stream Deck.
 Advanced Aqara Cloud Integration for Home Assistant.
 
 #### ✅ Supported Devices
-
 - Hub G3
 - Hub M3
 - FP2 Presence Sensor
 - FP300 *(Pre-release)*
 - U200 Smart Lock *(Work in Progress)*
 
-> Additional devices may work if exposed through the Aqara Cloud API.
+> Need support for another device?  
+If it is exposed via the Aqara Cloud API, it can likely be added upon request.
 
 ---
 
