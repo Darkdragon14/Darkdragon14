@@ -42,7 +42,7 @@ Advanced Aqara Cloud Integration for Home Assistant.
 - Hub G3
 - Hub M3
 - FP2 Presence Sensor
-- FP300 *(Pre-release)*
+- FP300 Presence Sensor
 - U200 Smart Lock *(Work in Progress)*
 
 > Need support for another device?  
