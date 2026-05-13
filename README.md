@@ -8,6 +8,17 @@ If something can be automated instead of managed by hand, I’ll probably try to
 
 ## 🚀 Stuff I build
 
+### 📦 VolumeVault
+A friendly backup manager for Docker volumes.
+
+VolumeVault helps self-hosters create, schedule, pause, monitor, and restore Docker volume backups without having to write cron jobs or remember backup commands.
+
+→ Docker volume backups made visible  
+→ Multiple storage backends, from local targets to remote object storage  
+→ Guided scheduling instead of raw cron  
+→ Pause backups when a volume disappears  
+→ Restore support for when backups actually matter
+
 ### ☁️ docker-cloudflare-tunnel-sync
 Turn Docker labels into Cloudflare Tunnel routes, DNS records, and Access rules.
 
