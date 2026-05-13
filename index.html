@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Darkdragon14 — Home Assistant & Self-hosting tools</title>
+  <meta name="description" content="Portfolio of Darkdragon14 — open-source tools for Home Assistant, Docker, Cloudflare Tunnels, and self-hosted infrastructures.">
+  <meta name="color-scheme" content="dark light">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Darkdragon14 home">
+      <span class="brand-mark">D14</span>
+      <span>Darkdragon14</span>
+    </a>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#projects">Projects</a>
+      <a href="#focus">Focus</a>
+      <a href="#thinking">Thinking</a>
+      <a class="nav-button" href="https://github.com/Darkdragon14">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Home Assistant · Docker · Self-hosting</p>
+        <h1>Building tools that make smart homes and homelabs less annoying to maintain.</h1>
+        <p class="hero-text">
+          I build open-source tools for Home Assistant, Docker, Cloudflare Tunnels,
+          and self-hosted infrastructures. If something can be automated instead of
+          managed by hand, I’ll probably try to automate it.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View projects</a>
+          <a class="button secondary" href="https://github.com/Darkdragon14">GitHub profile</a>
+        </div>
+      </div>
+
+      <aside class="hero-panel" aria-label="Quick profile">
+        <div class="terminal">
+          <div class="terminal-bar"><span></span><span></span><span></span></div>
+          <pre><code>$ whoami
+Darkdragon14
+
+$ focus
+Home Assistant integrations
+Docker tooling
+Cloudflare Tunnel automation
+Self-hosted infrastructure
+
+$ motto
+Automation > manual steps</code></pre>
+        </div>
+      </aside>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Featured work</p>
+        <h2>Stuff I build</h2>
+        <p>Projects focused on making real-world self-hosting, smart home, and Docker workflows easier to use.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-icon">📦</div>
+          <div>
+            <div class="project-topline">
+              <h3>VolumeVault</h3>
+              <span class="badge">New</span>
+            </div>
+            <p>
+              A friendly backup manager for Docker volumes. Create, schedule, pause,
+              monitor, and restore Docker volume backups without writing cron jobs or
+              remembering backup commands.
+            </p>
+            <ul>
+              <li>Docker volume backups made visible</li>
+              <li>Multiple storage backends, from local targets to remote object storage</li>
+              <li>Guided scheduling instead of raw cron</li>
+              <li>Pause backups when a volume disappears</li>
+              <li>Restore support for when backups actually matter</li>
+            </ul>
+            <div class="links"><a href="https://github.com/Darkdragon14/VolumeVault">GitHub →</a></div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">☁️</div>
+          <h3>docker-cloudflare-tunnel-sync</h3>
+          <p>Turn Docker labels into Cloudflare Tunnel routes, DNS records, and Access rules.</p>
+          <p class="mini">Containers become the source of truth — no more dashboard clicking.</p>
+          <div class="links"><a href="https://github.com/Darkdragon14/docker-cloudflare-tunnel-sync">GitHub →</a></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">💡</div>
+          <h3>ha-aqara-devices</h3>
+          <p>Advanced Aqara Cloud integration for Home Assistant with support for hubs, presence sensors, locks, and more.</p>
+          <p class="mini">Built for better Aqara device control inside Home Assistant.</p>
+          <div class="links"><a href="https://github.com/Darkdragon14/ha-aqara-devices">GitHub →</a></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🔐</div>
+          <h3>ha-access-control-manager</h3>
+          <p>Centralized role and permission management for Home Assistant dashboards, entities, helpers, and devices.</p>
+          <p class="mini">Clean dashboards, proper access levels, fewer “who broke this?” moments.</p>
+          <div class="links"><a href="https://github.com/Darkdragon14/ha-access-control-manager">GitHub →</a></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🏠</div>
+          <h3>ha-guest-mode</h3>
+          <p>Generate secure, time-limited guest links for Home Assistant.</p>
+          <p class="mini">Guests get access, you keep control, no zombie accounts.</p>
+          <div class="links"><a href="https://github.com/Darkdragon14/ha-guest-mode">GitHub →</a></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">🎛️</div>
+          <h3>streamdeck-docker</h3>
+          <p>Control Docker and Compose stacks from an Elgato Stream Deck.</p>
+          <p class="mini">One button, one container. Surprisingly addictive.</p>
+          <div class="links"><a href="https://github.com/Darkdragon14/streamdeck-docker">GitHub →</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="focus" class="section split">
+      <div>
+        <p class="eyebrow">Main playgrounds</p>
+        <h2>Where I spend most of my time</h2>
+        <p>
+          Most of my work lives at the intersection of smart home automation,
+          self-hosting, infrastructure tooling, and developer experience.
+        </p>
+      </div>
+
+      <div class="tag-cloud">
+        <span>Home Assistant</span>
+        <span>HACS integrations</span>
+        <span>Docker</span>
+        <span>CI/CD</span>
+        <span>Cloudflare Zero Trust</span>
+        <span>Cloudflare Tunnels</span>
+        <span>Homelab</span>
+        <span>Smart home access control</span>
+        <span>Self-hosting UX</span>
+      </div>
+    </section>
+
+    <section id="thinking" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">How I think</p>
+        <h2>Small tools, real problems</h2>
+      </div>
+
+      <div class="principles">
+        <article>
+          <h3>Automation first</h3>
+          <p>Automation beats documentation, and documentation beats manual steps.</p>
+        </article>
+        <article>
+          <h3>Less fragile by default</h3>
+          <p>If it breaks easily, it is probably not finished yet.</p>
+        </article>
+        <article>
+          <h3>Security with usability</h3>
+          <p>Security should protect the workflow without making it painful to use.</p>
+        </article>
+        <article>
+          <h3>Nerd tools, less annoying</h3>
+          <p>The best tools make complex things feel calm, obvious, and reversible.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta">
+      <p class="eyebrow">Want to contribute?</p>
+      <h2>Issues, ideas, and PRs are welcome.</h2>
+      <p>
+        If you’re using one of my projects and something feels wrong, let me know —
+        chances are I’ll want to fix it.
+      </p>
+      <a class="button primary" href="https://github.com/Darkdragon14">Open GitHub profile</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© Darkdragon14</span>
+    <span>Built for GitHub Pages</span>
+  </footer>
+</body>
+</html>
