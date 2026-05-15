@@ -368,6 +368,19 @@ pre {
   font-weight: 800;
 }
 
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: -0.2rem 0 0.85rem;
+}
+
+.project-meta img {
+  display: block;
+  height: 20px;
+  max-width: 100%;
+}
+
 .project-card p,
 .project-card li,
 .principles p {
