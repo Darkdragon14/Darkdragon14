@@ -1,90 +1,27 @@
 # Darkdragon14 👋
 
-I build tools to make Home Assistant and self-hosted infrastructures easier, cleaner, and less annoying to maintain.
+I build open-source tools for Home Assistant, Docker, Cloudflare Tunnels, and self-hosted infrastructures.
 
 If something can be automated instead of managed by hand, I’ll probably try to automate it.
 
----
+## Portfolio
 
-## 🚀 Stuff I build
+👉 <https://darkdragon14.github.io/>
 
-### 📦 VolumeVault
-A friendly backup manager for Docker volumes.
+## Main projects
 
-VolumeVault helps self-hosters create, schedule, pause, monitor, and restore Docker volume backups without having to write cron jobs or remember backup commands.
+- **VolumeVault** — Docker volume backup manager with scheduling, monitoring, restore flows, and multiple storage backends.
+- **ha-aqara-devices** — Advanced Aqara Cloud integration for Home Assistant.
+- **aqara-rocketmq-bridge** — RocketMQ bridge for near real-time Aqara push events.
+- **docker-cloudflare-tunnel-sync** — Docker labels to Cloudflare Tunnel routes, DNS records, and Access rules.
+- **ha-access-control-manager** — Centralized Home Assistant access and dashboard permission management.
+- **ha-guest-mode** — Secure, time-limited guest links for Home Assistant.
+- **streamdeck-docker** — Docker and Compose controls for Elgato Stream Deck.
 
-→ Docker volume backups made visible  
-→ Multiple storage backends, from local targets to remote object storage  
-→ Guided scheduling instead of raw cron  
-→ Pause backups when a volume disappears  
-→ Restore support for when backups actually matter
+## Focus
 
-### ☁️ docker-cloudflare-tunnel-sync
-Turn Docker labels into Cloudflare Tunnel routes, DNS records, and Access rules.
+Home Assistant, HACS integrations, Docker, CI/CD, Cloudflare Zero Trust, Cloudflare Tunnels, homelabs, and self-hosting UX.
 
-→ No more dashboard clicking  
-→ Containers = source of truth  
-→ Sleep better at night 😄
-
-### 🏠 ha-guest-mode
-Generate secure, time-limited guest links for Home Assistant.
-
-→ Guests get access  
-→ You keep control  
-→ No zombie accounts
-
-### 🔐 ha-access-control-manager
-Centralized role & permission management for Home Assistant.
-
-→ Clean dashboards  
-→ Proper access levels  
-→ Less “who broke this?” moments
-
-### 🎛️ streamdeck-docker
-Control Docker and Compose stacks from a Stream Deck.
-
-→ One button = one container  
-→ Surprisingly addictive
-
-### 💡 ha-aqara-devices
-Advanced Aqara Cloud Integration for Home Assistant.
-
-#### ✅ Supported Devices
-- Hub G3
-- Hub M3
-- FP2 Presence Sensor
-- FP300 Presence Sensor
-- U200 Smart Lock *(Work in Progress)*
-
-> Need support for another device?  
-If it is exposed via the Aqara Cloud API, it can likely be added upon request.
-
----
-
-## 🧠 How I think
-
-- Automation > documentation > manual steps
-- If it’s fragile, it’s not finished
-- Security should not kill usability
-- Making nerd tools less annoying to use
-
-
----
-
-## 🔧 Main playgrounds
-
-- Home Assistant (HACS integrations)
-- Self-hosting & homelabs
-- Docker & CI/CD
-- Cloudflare Zero Trust / Tunnels
-- Real-world smart home setups
-
----
-
-## 🤝 Want to contribute?
+## Contributions
 
 Issues, ideas, and PRs are welcome.
-
-If you’re using one of my projects and something feels wrong, let me know — chances are I’ll want to fix it.
-
----
